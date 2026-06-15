@@ -1,0 +1,64 @@
+body {
+
+    margin: 0;
+    height: 100vh;
+
+    background-image: url("images/moonjune16.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    font-family: 'Quicksand', sans-serif;
+}
+.login-box {
+
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,0.15);
+
+    border-radius: 25px;
+
+    padding: 40px;
+
+    width: 550px;
+
+    text-align: center;
+
+    color: white;
+
+    box-shadow:
+        0 0 40px rgba(255,255,255,0.08);
+}
+.login-box button:hover {
+
+    transform: scale(1.08);
+
+    background: rgba(255,255,255,0.25);
+
+    box-shadow: 0 0 20px rgba(255,255,255,0.4);
+}
+.login-box h1,
+.login-box p {
+    color: white;
+}
+#message {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: #ffd700;
+
+    min-height: 30px;
+}
